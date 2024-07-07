@@ -145,3 +145,26 @@ main section{
 .buttons{
     text-align: center;
 }
+.footerst{
+    background-color: #FFF8F3;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+
+}
+.footer_colume{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px ;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px ;
+    margin-bottom: 24px;
+    border: 0px;
+}
