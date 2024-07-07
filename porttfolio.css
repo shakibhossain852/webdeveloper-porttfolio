@@ -6,14 +6,11 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-
 nav{
     display: flex;
     align-items:center;
     justify-content:space-between;
     margin: 0px 200px;
-
 }
 .nt{
     font-weight: 800;
@@ -42,7 +39,6 @@ nav li a{
     border-radius: 5px;
     font-size: 20px;
     border: none;
-
 }
 .h4s{
     color: #474747;
@@ -52,8 +48,7 @@ nav li a{
 .h1s{
     color: #181818;
     font-size: 85px ;
-    font-weight: bold;
-   
+    font-weight: bold; 
 }
 .psty{
     color: #757575;
@@ -76,4 +71,42 @@ nav li a{
     background-image: url(images/developer.png),url(images/header_bg.png);
     background-repeat: no-repeat; background-position: top left, bottom right;
 }
-   
+.hdrst{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    
+    
+}
+
+.secdes{
+    color: #757575;
+    font-size:18px ;  
+}
+.sec2s{
+    background-color:#FFF8F3;
+    border-radius: 10px;
+    padding: 131px 157px;
+    text-align: center;
+    margin-top: 131px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.itemdes{
+    font-weight: bold;
+    color: #474747;
+}
+.items{
+    font-size:18px;
+}
+.item{
+    color: #757575;
+}
+.abiteams{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
